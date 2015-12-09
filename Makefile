@@ -1,6 +1,6 @@
 container_registry := nordstrom
 container_name := util
-container_release := 2015-10-06
+container_release := 2015-05-29
 
 .PHONY: build tag
 
