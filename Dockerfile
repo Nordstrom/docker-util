@@ -7,4 +7,3 @@ RUN apt-get update -qy \
      dnsutils \
      jq \
      nmap
-
