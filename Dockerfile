@@ -10,6 +10,10 @@ RUN apt-get update -qy \
      jq \
      nmap
 
+RUN pip install --upgrade pip \
+ && pip install setuptools \
+ && pip install awscli==1.11.30
+
 RUN curl -sSLO https://github.com/coreos/etcd/releases/download/v3.0.17/etcd-v3.0.17-linux-amd64.tar.gz
 RUN tar -xz -f etcd-v3.0.17-linux-amd64.tar.gz && \
 	mv etcd-v3.0.17-linux-amd64/etcdctl /usr/bin/etcdctl && \

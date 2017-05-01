@@ -1,6 +1,6 @@
 container_registry := quay.io/nordstrom
 container_name := util
-container_release := 2017-03-13
+container_release := 2017-04-28
 
 .PHONY: build/image tag/image push/image
 
