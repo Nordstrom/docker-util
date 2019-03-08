@@ -1,4 +1,4 @@
-container_registry := quay.io/nordstrom
+container_registry := gitlab-registry.nordstrom.com/k8s/platform-bootstrap
 container_name := util
 container_release := 2017-04-28
 
